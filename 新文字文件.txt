@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>WhiteByte Studio - Steam 點數卡專賣</title>
+  <style>
+    body { font-family: sans-serif; margin: 0; background: #0f0f0f; color: white; }
+    header, footer { background: #1b1b1b; padding: 20px; text-align: center; }
+    a { color: #00aaff; text-decoration: none; }
+    .container { max-width: 900px; margin: auto; padding: 20px; }
+    .product { background: #1a1a1a; padding: 20px; margin-bottom: 20px; border-radius: 10px; }
+    .button { background: #00aaff; color: white; padding: 10px 20px; border-radius: 5px; display: inline-block; margin-top: 10px; }
+    .button:hover { background: #0077aa; }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>WhiteByte Studio</h1>
+    <p>專業 Steam 點數卡販售平台 | 安全、快速、可預約</p>
+  </header>
+
+  <div class="container">
+    <h2>本店主打</h2>
+    <ul>
+      <li>提供合法、安全的 Steam 點數卡</li>
+      <li>即時發卡、Line / IG 聯絡免等待</li>
+      <li>可接受轉帳付款 / Line Pay</li>
+    </ul>
+
+    <h2>最新上架商品</h2>
+
+    <!-- 商品區 -->
+    <div class="product">
+      <h3>Steam 點數卡 $100</h3>
+      <p>售價：NT$115（含手續費）</p>
+      <p>數量有限，先搶先贏！</p>
+      <a class="button" href="#order">立即訂購</a>
+    </div>
+
+    <div class="product">
+      <h3>Steam 點數卡 $300</h3>
+      <p>售價：NT$330</p>
+      <p>可 Line 下單，最快 10 分鐘內發卡</p>
+      <a class="button" href="#order">立即訂購</a>
+    </div>
+
+    <div class="product">
+      <h3>Steam 點數卡 $500</h3>
+      <p>售價：NT$540</p>
+      <p>穩定供應，支援多種付款方式</p>
+      <a class="button" href="#order">立即訂購</a>
+    </div>
+
+    <h2 id="order">如何下單</h2>
+    <p>請點擊以下連結，選擇你想要的卡片金額，並透過表單或 Line 下單：</p>
+    <ul>
+      <li><a href="https://line.me/ti/p/你的LineID" target="_blank">Line 線上下單（建議）</a></li>
+      <li><a href="https://forms.gle/你的Google表單" target="_blank">Google 表單下單</a></li>
+    </ul>
+  </div>
+
+  <footer>
+    <p>&copy; 2025 WhiteByte Studio | 聯絡信箱：yourmail@example.com</p>
+  </footer>
+</body>
+</html>
